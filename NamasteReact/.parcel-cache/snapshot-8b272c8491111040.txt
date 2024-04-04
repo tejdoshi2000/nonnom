@@ -29,7 +29,7 @@
 78C:\Users\OM\Desktop\nonnom\NamasteReact\node_modules\react-icons\tfi\index.mjs133567261529825336 0
 133C:\Users\OM\Desktop\nonnom\NamasteReact\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\UnicodeRange.js133567261453511899 0
 68C:\Users\OM\Desktop\nonnom\NamasteReact\node_modules\jquery\src\core133567261455162094 1
-76C:\Users\OM\Desktop\nonnom\NamasteReact\dist\logo-no-background.3ff5e7ee.png133567337569133788 0
+76C:\Users\OM\Desktop\nonnom\NamasteReact\dist\logo-no-background.3ff5e7ee.png133567337891336230 0
 95C:\Users\OM\Desktop\nonnom\NamasteReact\node_modules\caniuse-lite\data\features\currentcolor.js133567261480135209 0
 69C:\Users\OM\Desktop\nonnom\NamasteReact\node_modules\@swc\helpers\esm133567261469701994 1
 119C:\Users\OM\Desktop\nonnom\NamasteReact\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\lib\replace\Number.js133567261393651813 0
@@ -59,7 +59,7 @@
 84C:\Users\OM\Desktop\nonnom\NamasteReact\node_modules\sucrase\dist\esm\NameManager.js133567261426979120 0
 81C:\Users\OM\Desktop\nonnom\NamasteReact\node_modules\abortcontroller-polyfill\src133567261340051487 1
 73C:\Users\OM\Desktop\nonnom\NamasteReact\node_modules\react-multi-carousel133567261447175821 1
-44C:\Users\OM\Desktop\nonnom\NamasteReact\dist133567337570598920 1
+44C:\Users\OM\Desktop\nonnom\NamasteReact\dist133567337892663008 1
 80C:\Users\OM\Desktop\nonnom\NamasteReact\node_modules\lightningcss\node\index.mjs133567261355326102 0
 73C:\Users\OM\Desktop\nonnom\NamasteReact\node_modules\postcss-value-parser133567261309976182 1
 90C:\Users\OM\Desktop\nonnom\NamasteReact\node_modules\glob\dist\commonjs\processor.d.ts.map133567261396317409 0
@@ -253,7 +253,7 @@
 61C:\Users\OM\Desktop\nonnom\NamasteReact\node_modules\get-port133567261304875746 1
 76C:\Users\OM\Desktop\nonnom\NamasteReact\node_modules\react-icons\fa\index.js133567261440386061 0
 77C:\Users\OM\Desktop\nonnom\NamasteReact\node_modules\svgo\lib\svgo\plugins.js133567261396630813 0
-61C:\Users\OM\Desktop\nonnom\NamasteReact\src\utils\constant.js133567337557859493 0
+61C:\Users\OM\Desktop\nonnom\NamasteReact\src\utils\constant.js133567337864988133 0
 103C:\Users\OM\Desktop\nonnom\NamasteReact\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\chacha8.h133567261441278739 0
 61C:\Users\OM\Desktop\nonnom\NamasteReact\node_modules\escalade133567261310765902 1
 79C:\Users\OM\Desktop\nonnom\NamasteReact\node_modules\source-map-js\package.json133567261352200622 0
@@ -3604,7 +3604,7 @@
 93C:\Users\OM\Desktop\nonnom\NamasteReact\node_modules\react-multi-carousel\lib\Carousel.js.map133567261420042309 0
 77C:\Users\OM\Desktop\nonnom\NamasteReact\node_modules\css-select\lib\sort.d.ts133567261428100354 0
 98C:\Users\OM\Desktop\nonnom\NamasteReact\node_modules\resolve\test\module_dir\ymodules\aaa\index.js133567261395892992 0
-67C:\Users\OM\Desktop\nonnom\NamasteReact\dist\index.9e4c6fd2.css.map133567337570492677 0
+67C:\Users\OM\Desktop\nonnom\NamasteReact\dist\index.9e4c6fd2.css.map133567337892582876 0
 67C:\Users\OM\Desktop\nonnom\NamasteReact\node_modules\semver\classes133567261394906312 1
 79C:\Users\OM\Desktop\nonnom\NamasteReact\node_modules\@alloc\quick-lru\readme.md133567261290250726 0
 106C:\Users\OM\Desktop\nonnom\NamasteReact\node_modules\@babel\highlight\node_modules\color-name\package.json133567261268446060 0
@@ -9678,7 +9678,7 @@
 63C:\Users\OM\Desktop\nonnom\NamasteReact\dist\slick.0ba9c062.svg133567259625175245 0
 63C:\Users\OM\Desktop\nonnom\NamasteReact\dist\slick.229e6b1e.svg133567259625186388 0
 64C:\Users\OM\Desktop\nonnom\NamasteReact\dist\slick.c8d05265.woff133567259625241256 0
-63C:\Users\OM\Desktop\nonnom\NamasteReact\dist\index.9e4c6fd2.css133567337569814713 0
-55C:\Users\OM\Desktop\nonnom\NamasteReact\dist\index.html133567337570059161 0
-62C:\Users\OM\Desktop\nonnom\NamasteReact\dist\index.5baa4167.js133567337569874536 0
-66C:\Users\OM\Desktop\nonnom\NamasteReact\dist\index.5baa4167.js.map133567337570569014 0
+55C:\Users\OM\Desktop\nonnom\NamasteReact\dist\index.html133567337891336230 0
+63C:\Users\OM\Desktop\nonnom\NamasteReact\dist\index.9e4c6fd2.css133567337891710789 0
+62C:\Users\OM\Desktop\nonnom\NamasteReact\dist\index.5baa4167.js133567337891760660 0
+66C:\Users\OM\Desktop\nonnom\NamasteReact\dist\index.5baa4167.js.map133567337892663008 0
