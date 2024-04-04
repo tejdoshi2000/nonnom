@@ -29,5 +29,6 @@
     "process": "^0.11.10",
     "tailwindcss": "^3.4.1"
   },
-  "browserslist": "last 2 Chrome version"
+  "browserslist": "last 2 Chrome version",
+  "default": "index.html"
 }
