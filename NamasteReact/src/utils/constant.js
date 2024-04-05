@@ -1,5 +1,5 @@
 export const CDN_URL = 
-    "https://cors-anywhere.herokuapp.com/https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/"
+    "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/"
 
 
 export  const carouselData = {"info": [
