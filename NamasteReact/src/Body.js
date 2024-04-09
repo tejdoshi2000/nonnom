@@ -86,7 +86,7 @@ useEffect(()=>{
 
                     }}
                   >Search</button>
-                  <input className="border border-black" value={loggedInUser} onChange={(e)=> setUserName(e.target.value)} ></input>
+                  {/* <input className="border border-black" value={loggedInUser} onChange={(e)=> setUserName(e.target.value)} ></input> */}
                 
                   </div>
           <h3>What's on your mind today?</h3>

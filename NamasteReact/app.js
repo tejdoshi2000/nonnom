@@ -2,8 +2,8 @@ import React, { useCallback, useContext, useEffect, useState } from "react";
 import ReactDOM from "react-dom";
 import Header from "./src/Header";
 import Body from "./src/Body";
-import RestaurantCard from "./src/RestaurantCard";
-import CarouselCard from "./src/CarouselCard";
+import appStore from "./src/utils/appStore";
+import {Provider} from 'react-redux'
 import { MdStars, MdOutlineShoppingBag } from "react-icons/md";
 import {createBrowserRouter, RouterProvider, Outlet} from "react-router-dom";
 import About from "./src/About";
@@ -14,6 +14,7 @@ import Error from "./src/Error";
 import RestaurantMenu from "./src/RestaurantMenu";
 import RestsByItem from "./src/RestsByItem";
 import UserContext from "./src/utils/UserContext";
+import Cart from "./src/Cart";
 
 
 
@@ -45,12 +46,15 @@ const AppLayout = () => {
 
   
   return (
+
+    <Provider store={appStore}>
     <UserContext.Provider value={{loggedInUser:userName, setUserName}}>
     <div className="app">
       <Header /> 
       <Outlet/>
     </div>
     </UserContext.Provider>
+    </Provider>
   );
 };
 
@@ -85,6 +89,10 @@ const appRouter = createBrowserRouter([
         path: '/cards',
         element: <RestsByItem/>
 
+      },
+      {
+        path:'/cart',
+        element:<Cart/>
       }
     ],
     errorElement: <Error/>

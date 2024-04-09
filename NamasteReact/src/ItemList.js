@@ -1,11 +1,22 @@
 import Item from "./Item";
 import { MdStar } from "react-icons/md";
 import ShowMoreText from 'react-show-more-text';
+import {useDispatch} from 'react-redux';
+import { addItems } from "./utils/cartSlice";
 
 
 
 const ItemList = ({items}) =>{
     // console.log(items)
+    
+const dispatch = useDispatch();
+    const handleAddItem = (item)=>{
+        console.log('Item added to cart.')
+        //dispatching the action
+        dispatch(addItems(item));
+
+    }
+
     return   <div>
     {
     items.map((item)=>{ 
@@ -30,7 +41,7 @@ const ItemList = ({items}) =>{
             
         <img  className = ' m-1 p-1 w-28 h-28 rounded-xl'alt="Unable to fetch the image from server." src={`https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/${item.card.info.imageId}`} ></img>
         
-                <button className="absolute bottom-0 font-bold  p-1 left-1/2 bg-white text-orange-500 rounded-lg">ADD+</button>
+                <button className="absolute bottom-0 font-bold  p-1 left-1/2 bg-white text-orange-500 rounded-lg" onClick={() =>handleAddItem(item)}>ADD+</button>
         
         </div>
          </div>

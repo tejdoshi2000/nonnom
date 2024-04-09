@@ -5,9 +5,15 @@ import { useState, useEffect, useContext } from "react";
 import {Link} from "react-router-dom";
 import useOnlineStatus from "./utils/useOnlineStatus";
 import UserContext from "./utils/UserContext";
+import {useSelector} from 'react-redux';
 
 const Header = () => {
 
+  //subscribing to the store using a selector
+  const cartItems = useSelector((store) =>
+    store.cart.items
+  );
+  console.log(cartItems)
   const newUser = useContext(UserContext)
     
     const [btnName, setBtnName] = useState('Login');
@@ -39,12 +45,12 @@ const onlineStatus = useOnlineStatus();
         <a href="#" className="flex text-gray rounded-md m-1 p-1   hover:bg-orange-500 hover:text-white mx-2"><FaSearch className="mt-1"/>Search</a>
         <a href="#" className=" flex text-gray rounded-md m-1 p-1 hover:bg-orange-500 hover:text-white  mx-2"><TbDiscount2 className="mt-1"/>Offers</a>
         <Link to={'/about'}> <a href="#" className=" flex text-gray rounded-md m-1 p-1 hover:bg-orange-500 hover:text-white  mx-2"><FaRegUser className="mt-1"/> SignUp</a></Link>
-        <a href="#" className=" flex text-gray rounded-md m-1 p-1 hover:bg-orange-500 hover:text-white  mx-2"><MdOutlineShoppingBag className="mt-1"/> Cart </a>
+     <Link to={'/cart'}><a href="#" className=" flex text-gray rounded-md m-1 p-1 hover:bg-orange-500 hover:text-white  mx-2"><MdOutlineShoppingBag className="mt-1 "/>({cartItems.length}-items) </a></Link>
         <a href="#" className="  text-gray rounded-md m-1 p-1 hover:bg-orange-500 hover:text-white  mx-2"><button className="login flex"   onClick = {()=>{
       btnName === "Login" ? setBtnName('Logout') 
       : setBtnName('Login');
     } }> <MdPerson className="mt-1"/>{btnName}</button></a>
-    <a>{newUser.loggedInUser}</a>
+    {/* <a>{newUser.loggedInUser}</a> */}
       </nav>
     </header>
      
